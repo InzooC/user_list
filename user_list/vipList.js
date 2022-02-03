@@ -6,14 +6,6 @@ const list = JSON.parse(localStorage.getItem('VIPmembers')) || []
 
 const dataPanel = document.querySelector('#data-panel')
 
-// Render user-list
-// axios
-//   .get(INDEX_URL)
-//   .then((Response) => {
-//     users.push(...Response.data.results)
-//     renderUser(users)
-//   })
-//   .catch((err) => console.log(err))
 
 renderUser(list)
 
