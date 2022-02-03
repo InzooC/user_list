@@ -1,0 +1,65 @@
+.container {
+  width: 1000px;
+}
+
+.carousel .carousel-item {
+  height: 300px;
+}
+
+.carousel .carousel-item img {
+  min-height: 200px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.carousel-inner {
+  /* position: relative; */
+  text-align: center;
+}
+
+.company-name {
+  position: relative;
+  display: inline-block;
+  top: 230px;
+  font-size: 20px;
+  color: black;
+  background: white;
+  opacity: 0.7;
+  border-radius: 3px;
+  width: 80px;
+  z-index: 10;
+}
+
+.mambership-card {
+  position: relative;
+}
+
+.img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  border-radius: 5%;
+}
+
+.btn-add-vip {
+    display: inline-block;
+    position: absolute;
+    width: 40px;
+    top: 5px;
+    right: 5px;
+    padding: 0;
+    font-size: 12px;
+    border: 1px solid gold;
+    color: gold;
+    border-radius: 3px;
+    opacity: 0.8;
+}
+.btn-add-vip:hover {
+    color: white;
+    background: gold;
+    transform: scale(1.1);
+}
+
+.isVIP {
+  background-color: gold;
+  color: white;
+}
